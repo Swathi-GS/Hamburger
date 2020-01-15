@@ -1,0 +1,230 @@
+body {
+    background-color:#f8efba;
+}
+
+.up{
+    position:absolute ;
+    width:426px;
+    height:180px;
+    left:190px;
+    top:70px;
+    animation:ani 22.5s;
+z-index:9;
+    
+  
+}
+@keyframes ani{
+   
+   0%{
+        top:-200px;
+    }
+    50%{
+        top:-300px;
+    }
+    100%{
+        top:70px;
+    }
+}
+
+.veggie1{
+    position:absolute ;
+    width:341px;
+    height:106px;
+   
+    top:180px;
+    left:220px;
+   
+    animation:down6 16.5s;
+    z-index:7;
+}
+@keyframes down6{
+    0%{
+        top:-120px;
+    }
+    60%{
+        top:-100px;
+    }
+    100%{
+        top:180px;
+    }
+}
+.tomato{
+    position:absolute ;
+    width:187px;
+    height:69px;
+   
+    top:213px;
+    left:230px;
+   
+    animation:down5 12.5s;
+    z-index:7;
+}
+@keyframes down5{
+    0%{
+        top:-100px;
+    }
+    60%{
+        top:-50px;
+    }
+    100%{
+        top:213px;
+    }
+}
+
+
+.onion{
+    position:absolute;
+    width:199px;
+    height:97px;
+    top:210px;
+    left:350px;
+    animation:down4 11s;
+    z-index:6;
+}
+@keyframes down4{
+    0%{
+        top:-200px;
+        
+    }
+    50%{
+        top:-50px;
+    }
+    100%{
+        top:220px;
+    }
+}
+
+
+.cheese{
+    position:absolute;
+    width:609px;
+    height:183px;
+    left:100px;
+    z-index:5;
+    top:200px;
+    animation:down3 7.5s;
+}
+@keyframes down3{
+0%{
+    top:-800px;
+}
+50%{
+    top:-50px;
+    
+}
+100%{
+    top:200px;
+}
+}
+
+.meet{
+    position:absolute ;
+   width:350px;
+    height:130px;
+    
+    left:220px;z-index:3;
+    top:230px;
+    animation:down3 6s;
+}
+@keyframes down3{
+    0%{
+        top:-100px;
+}
+50%{
+    top:-500px;
+    
+}
+100%{
+    top:230px;
+}
+}
+
+.veggie{
+    position:absolute ;
+    width:341px;
+    height:106px;
+    
+   
+    left:220px;
+    top:270px;z-index:2;
+    animation:down2 4s ;
+}
+@keyframes down2{
+    0%{
+        top:-80px;
+    }
+    50%{
+        top:-800px;
+    }
+    100%{
+        top:250px;
+    }
+}
+
+.base{
+   
+      position:absolute;
+    width:466px;
+    height:118px;
+    left:150px;
+    top:290px;
+    animation:down1 2s;
+    z-index:1;
+}
+
+@keyframes down1{
+      0%{
+        top:-100px;
+    }
+    100%{
+        top:290px;
+    }
+}
+
+
+.plate{
+                width:554px;
+                height:554px;
+                position: absolute;
+                top: 80px;
+                left: 120px;
+               z-index: -1;
+}
+.back{
+width:1360px;
+height:1026px;
+
+z-index:-2;
+top:0px;
+left:10px;
+position:absolute;
+}
+
+
+.sos{
+width:171px;
+height:532px;
+z-index:10;
+top:1px;
+right:300px;
+position:absolute;
+animation:right 24s;
+}
+@keyframes right{
+      0%{
+        right:-10000px;
+    }
+    100%{
+        right:300px;
+    }
+}
+
+/*.watch{
+    font-family:kalam;position:absolute ;
+    left:40px;
+    top:80px;
+    height:50px;
+    font-size:25px;
+    
+    
+}*/
